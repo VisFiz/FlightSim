@@ -34,6 +34,7 @@
             "onhover": {
             "enable": true,
             "mode": "repulse"
+        }
        }
       }
     }   
