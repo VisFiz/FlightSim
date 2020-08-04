@@ -5,7 +5,7 @@ body{
 }
 
 .btext{
-    color: #ff3700;
+    color: #FF00FB;
     position: absolute;
     text-align: center;
     top: 40%;
@@ -30,8 +30,8 @@ h1{
     color: #b19295;
     border: #fff 1px solid;
 }
-
+//https://upload.wikimedia.org/wikipedia/commons/7/71/Black.png
 #particles-js{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/71/Black.png');
+    background-image: url('https://www.colorhexa.com/00fff3.png');
     height: 100vh;
 }
