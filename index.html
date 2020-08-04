@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="icon" href="https://i.imgur.com/KrOSogZ.png">
-  <title>Flight Simulator</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Particles Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Flight Simulator</h1>
-<iframe src="https://discordapp.com/widget?id=728360721691181137&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  <div id="particles-js">
+    <div id="login">
+      <form>
+        <div>
+          <label for="username">Username</label>
+          <br>
+          <input type="text" placeholder="Username">
+        </div>
 
-<p></p>
+        <div>
+          <label for="password">Password</label>
+          <br>
+          <input type="text" placeholder="Password">
+        </div>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </div>
 
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function(){
+      console.log('particles.json loaded...');
+    });
+  </script>
 </body>
 </html>
