@@ -17,6 +17,9 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background: -webkit-linear-gradient(#61ace6, #db2f8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h1{
