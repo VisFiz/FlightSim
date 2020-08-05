@@ -1,5 +1,8 @@
 
 h1{
     font-size: 50px;
+    font-family: Verdana, Geneva, sans-serif;
     position: absolute;
+    top: 40%;
+    width: 50%;
 }
