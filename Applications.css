@@ -2,11 +2,7 @@ h1{
     font-size: 50px;
 }
 .btext{
-<<<<<<< HEAD
     color: #23272A;
-=======
-    font-size: 50px;
->>>>>>> dbb15cc9ecddacc206c9a20d257fcdad75005a86
     position: absolute;
     text-align: center;
     top: 40%;
@@ -18,11 +14,7 @@ h1{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-<<<<<<< HEAD
     background: -webkit-linear-gradient(#61ace6, #db2f8a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-=======
-}
->>>>>>> dbb15cc9ecddacc206c9a20d257fcdad75005a86
