@@ -24,9 +24,6 @@ body{
 
 h1{
     font-size: 50px;
-    background: -webkit-linear-gradient(#61ace6, #db2f8a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .btn{
