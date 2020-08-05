@@ -1,14 +1,18 @@
 
 .btext{
-    font-size: 50px;
-    font-family: Verdana, Geneva, sans-serif;
+    color: #23272A;
     position: absolute;
+    text-align: center;
     top: 40%;
-    width: 50%;
+    width: 100%;
+    line-height: 0.4em;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background: -webkit-linear-gradient(#61ace6, #db2f8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
