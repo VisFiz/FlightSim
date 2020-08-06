@@ -2,7 +2,7 @@
     font-family: oneday;
     src: url(oneday/oneday.ttf);
     font-style: normal;
-    font-weight: 100;
+    font-weight: 75;
 
 }
 
@@ -14,7 +14,7 @@ body{
 
 .btext{
     font-family: ONEDAY;
-    font-weight: 100;
+    font-weight: 75;
     color: #23272A;
     position: absolute;
     text-align: center;
