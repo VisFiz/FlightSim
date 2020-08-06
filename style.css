@@ -1,4 +1,10 @@
+@font-face {
+    font-family: ONEDAY;
+    src: url(ONEDAY/ONEDAY.ttf);
+    font-style: normal;
+    font-weight: 100;
 
+}
 
 body{
     margin: 0;
@@ -7,6 +13,8 @@ body{
 }
 
 .btext{
+    font-family: ONEDAY;
+    font-weight: 100;
     color: #23272A;
     position: absolute;
     text-align: center;
