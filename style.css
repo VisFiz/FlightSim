@@ -6,8 +6,8 @@ body{
 
 .btext{
     color: #23272A;
-    font-family: oneday;
-    src: url(sansation_light.woff);
+    font-family: ONEDAY;
+    src: url(ONEDAY.otf);
     position: absolute;
     text-align: center;
     top: 40%;
