@@ -7,7 +7,7 @@ body{
 .btext{
     color: #23272A;
     font-family: ONEDAY;
-    src: url(ONEDAY.otf);
+    src: url(ONEDAY.ttf);
     position: absolute;
     text-align: center;
     top: 40%;
