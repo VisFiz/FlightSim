@@ -11,22 +11,28 @@
     
 </head>
 <body>
-    <div id="particles-js">
-        <div class="btext">
-            <h1>Flight Simulator</h1>
-            <p>The Home Of The FiveM Server</p>
-            <a href="https://discord.gg/ZdxuUFZ" class="btn">Discord</a><p>  </p><a href="\Applications" class="btn">Applications</a><p>  </p><a href="Info.html" class="btn">Info</a>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
+    <div id = "particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/vendor/three.r95.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/dist/vanta.clouds.min.js"></script>
     <script>
-        particlesJS.load('particles-js', 'particles.json',
-        function(){
-            console.log('particles.json loaded...')
+        VANTA.CLOUDS({
+          el: "#particles-js",
+          mouseControls: true,
+          touchControls: true,
+          minHeight: 200.00,
+          minWidth: 200.00
         })
     </script>
+    
+    <div class="btext">
+        <h1>Flight Simulator</h1>
+        <p>The Home Of The FiveM Server</p>
+        <a href="https://discord.gg/ZdxuUFZ" class="btn">Discord</a><p>  </p><a href="\Applications" class="btn">Applications</a><p>  </p><a href="\Info" class="btn">Info</a>
+    </div>
+
+    
+
+ 
     
 </body>
 </html>
