@@ -1,3 +1,11 @@
+@font-face {
+    font-family: oneday;
+    src: url(oneday/oneday.ttf);
+    font-style: normal;
+    font-weight: 75;
+
+}
+
 #particles-js{
     height: 100vh;
     z-index: -1;
@@ -36,6 +44,7 @@ h1{
     text-align: center;
     background: #063146;
     user-select: none;
+    font-family: ONEDAY;
 }
 .sidebar ul a{
     display: block;
